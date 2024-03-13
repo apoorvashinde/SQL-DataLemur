@@ -7,4 +7,4 @@ where tweet_date BETWEEN '2022-01-01' AND '2022-12-31'
 GROUP BY user_id 
 )
 as twt
-GROUP BY tweet_bucket
+GROUP BY tweet_bucket;
